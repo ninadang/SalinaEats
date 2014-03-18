@@ -1,0 +1,56 @@
+@font-face {
+	font-family: Olivier;
+	src: url(../fonts/olivier_demo.ttf);
+}
+
+@font-face {
+	font-family: NellaSue;
+	src: url(../fonts/NellaSueDEMO.ttf);
+}
+
+@font-face {
+	font-family: ThinSkinned;
+	src: url(../fonts/ThinSkinned.ttf);
+}
+
+.background {
+	position: fixed;
+	top: -20px;
+	left: -20px;
+}
+
+.name {
+	font-family: NellaSue;
+	font-size: 130px;
+}
+
+.verb {
+	font-family: ThinSkinned;
+	font-size: 50px;
+	margin-left: 40px;
+}
+
+.salina {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  margin-top: -90px;
+  margin-left: -235px;
+}
+
+.navigation {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+
+.navigation li {
+	display: inline-block;
+	font-family: Georgia;
+	font-size: 16px;
+	margin-left: 20px;
+}
+
+.navigation li:hover{
+	cursor: pointer;
+}
