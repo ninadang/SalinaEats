@@ -1,6 +1,6 @@
 $(function() {
 	var viewportheight = $(window).height();
-	$('#slide1').height(viewportheight);
+	$('#slide1', '#slide2').height(viewportheight);
 
 	var words = new Array('eats', 'jams', 'wanders');
 	var i = 0;

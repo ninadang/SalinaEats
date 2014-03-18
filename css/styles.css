@@ -13,6 +13,15 @@
 	src: url(../fonts/ThinSkinned.ttf);
 }
 
+.slide {
+	background-attachment: fixed;
+	overflow: hidden;
+	/*background-image: url(../img/dvsup.png);*/
+	width: 2000px;
+ 	height: 655px;
+ 	min-height: 655px;
+}
+
 .background {
 	position: fixed;
 	top: -20px;
