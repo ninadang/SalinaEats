@@ -22,10 +22,13 @@
 .slide {
 	background-attachment: fixed;
 	overflow: hidden;
-	background-image: url(../img/discovery.jpg);
 	width: 2000px;
- 	height: 655px;
+ 	height: 965px;
  	min-height: 655px;
+}
+
+#slide1 {
+	background: url(../img/discovery-1.jpg);
 }
 
 .background {
@@ -46,7 +49,7 @@
 }
 
 .salina {
-  position: fixed;
+  position: relative;
   top: 40%;
   left: 50%;
   margin-top: -90px;
