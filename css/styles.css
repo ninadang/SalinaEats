@@ -13,10 +13,16 @@
 	src: url(../fonts/ThinSkinned.ttf);
 }
 
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
 .slide {
 	background-attachment: fixed;
 	overflow: hidden;
-	/*background-image: url(../img/dvsup.png);*/
+	background-image: url(../img/discovery.jpg);
 	width: 2000px;
  	height: 655px;
  	min-height: 655px;
@@ -47,10 +53,17 @@
   margin-left: -235px;
 }
 
-.navigation {
+footer {
+	height: 30px;
+	background-color: #FFF;
+	opacity: .55;
+}
+
+.navigation, footer {
 	position: fixed;
 	bottom: 0;
 	left: 0;
+	width: 100%;
 }
 
 .navigation li {
